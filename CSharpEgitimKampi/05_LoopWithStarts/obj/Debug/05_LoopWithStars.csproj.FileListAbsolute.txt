@@ -1,0 +1,7 @@
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\CSharpEgitimKampi\05_LoopWithStarts\bin\Debug\05_LoopWithStarts.exe.config
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\CSharpEgitimKampi\05_LoopWithStarts\bin\Debug\05_LoopWithStarts.exe
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\CSharpEgitimKampi\05_LoopWithStarts\bin\Debug\05_LoopWithStarts.pdb
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\CSharpEgitimKampi\05_LoopWithStarts\obj\Debug\05_LoopWithStars.csproj.AssemblyReference.cache
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\CSharpEgitimKampi\05_LoopWithStarts\obj\Debug\05_LoopWithStars.csproj.CoreCompileInputs.cache
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\CSharpEgitimKampi\05_LoopWithStarts\obj\Debug\05_LoopWithStarts.exe
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\CSharpEgitimKampi\05_LoopWithStarts\obj\Debug\05_LoopWithStarts.pdb
