@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6F96A17-6E5C-41B1-A62C-B1DE34F9965B}|07_ForeachLoop\\07_ForeachLoop.csproj|c:\\users\\\u00F6mer faruk g\u00FCndo\u011Fdu\\desktop\\c#\\csharpegitimkampi\\07_foreachloop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6F96A17-6E5C-41B1-A62C-B1DE34F9965B}|07_ForeachLoop\\07_ForeachLoop.csproj|solutionrelative:07_foreachloop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B59B0DE2-814C-486D-AE27-4C135E24B0E6}|10_DatabaseCRUD\\10_DatabaseCRUD.csproj|c:\\users\\\u00F6mer faruk g\u00FCndo\u011Fdu\\desktop\\c#\\csharpegitimkampi\\10_databasecrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59B0DE2-814C-486D-AE27-4C135E24B0E6}|10_DatabaseCRUD\\10_DatabaseCRUD.csproj|solutionrelative:10_databasecrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{283335E9-4E54-4052-B878-247D8236407C}|09_DatabaseProject\\09_DatabaseProject.csproj|C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi\\09_databaseproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{283335E9-4E54-4052-B878-247D8236407C}|09_DatabaseProject\\09_DatabaseProject.csproj|solutionrelative:09_databaseproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A2FBBB6-9CA6-4EEB-B747-C8950A78A300}|08_Methods\\08_Methods.csproj|C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi\\08_methods\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A2FBBB6-9CA6-4EEB-B747-C8950A78A300}|08_Methods\\08_Methods.csproj|solutionrelative:08_methods\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,14 +28,38 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi\\07_ForeachLoop\\Program.cs",
-              "RelativeDocumentMoniker": "07_ForeachLoop\\Program.cs",
-              "ToolTip": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi\\07_ForeachLoop\\Program.cs",
-              "RelativeToolTip": "07_ForeachLoop\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi\\10_DatabaseCRUD\\Program.cs",
+              "RelativeDocumentMoniker": "10_DatabaseCRUD\\Program.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi\\10_DatabaseCRUD\\Program.cs*",
+              "RelativeToolTip": "10_DatabaseCRUD\\Program.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwE4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T17:08:17.698Z",
+              "WhenOpened": "2025-02-05T12:30:09.017Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi\\09_DatabaseProject\\Program.cs",
+              "RelativeDocumentMoniker": "09_DatabaseProject\\Program.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi\\09_DatabaseProject\\Program.cs",
+              "RelativeToolTip": "09_DatabaseProject\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvx8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T09:20:24.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi\\08_Methods\\Program.cs",
+              "RelativeDocumentMoniker": "08_Methods\\Program.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi\\08_Methods\\Program.cs",
+              "RelativeToolTip": "08_Methods\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T09:03:00.945Z"
             }
           ]
         }

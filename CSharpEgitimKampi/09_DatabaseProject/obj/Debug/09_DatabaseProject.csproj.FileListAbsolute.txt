@@ -1,0 +1,7 @@
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\CSharpEgitimKampi\09_DatabaseProject\bin\Debug\09_DatabaseProject.exe.config
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\CSharpEgitimKampi\09_DatabaseProject\bin\Debug\09_DatabaseProject.exe
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\CSharpEgitimKampi\09_DatabaseProject\bin\Debug\09_DatabaseProject.pdb
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\CSharpEgitimKampi\09_DatabaseProject\obj\Debug\09_DatabaseProject.csproj.AssemblyReference.cache
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\CSharpEgitimKampi\09_DatabaseProject\obj\Debug\09_DatabaseProject.csproj.CoreCompileInputs.cache
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\CSharpEgitimKampi\09_DatabaseProject\obj\Debug\09_DatabaseProject.exe
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\CSharpEgitimKampi\09_DatabaseProject\obj\Debug\09_DatabaseProject.pdb

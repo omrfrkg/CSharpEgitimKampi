@@ -1,0 +1,7 @@
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\CSharpEgitimKampi\10_DatabaseCRUD\bin\Debug\10_DatabaseCRUD.exe.config
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\CSharpEgitimKampi\10_DatabaseCRUD\bin\Debug\10_DatabaseCRUD.exe
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\CSharpEgitimKampi\10_DatabaseCRUD\bin\Debug\10_DatabaseCRUD.pdb
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\CSharpEgitimKampi\10_DatabaseCRUD\obj\Debug\10_DatabaseCRUD.csproj.AssemblyReference.cache
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\CSharpEgitimKampi\10_DatabaseCRUD\obj\Debug\10_DatabaseCRUD.csproj.CoreCompileInputs.cache
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\CSharpEgitimKampi\10_DatabaseCRUD\obj\Debug\10_DatabaseCRUD.exe
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\CSharpEgitimKampi\10_DatabaseCRUD\obj\Debug\10_DatabaseCRUD.pdb
