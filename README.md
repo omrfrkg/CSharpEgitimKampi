@@ -2,6 +2,8 @@
 
 Bu repoda, Murat Yücedağ tarafından gerçekleştirilen eğitim kampı üzerinde çalışılan projelerin içerikleri yer alıyor.
 
+# 🗂️ C Sharp Eğitim Kampı
+
 ## 📁 Proje - 1 : MainSubjects
 Bu projenin içeriği Yazdırma Komutları, String ve Integer Değişkenler konu başlıklarını ele alıyor.
 
@@ -32,5 +34,12 @@ Bu projenin içeriği SqlConnection, SqlCommand, SqlDataAdapter ve DataTable gib
 ## 📁 Proje - 10 : DatabaseCRUD
 Bu projenin içeriği Kategori Ekleme İşlemi, Ürün Ekleme İşlemi, Ürün Listeleme, Ürün Silme İşlemi ve Ürün Güncelleme İşlemi konu başlıklarını ele alıyor.
 
-![image](https://github.com/user-attachments/assets/0123bb02-9a8f-4da9-b96a-9f760e9b39c2)
+# 🗂️ C Sharp Eğitim Kampı 301
+
+## 📁 Proje : EFProject
+Bu proje, DB First mantığını anlamak, CRUD işlemlerini uygulamalı olarak görmek ve Entity Framework LinQ sorgularıyla çeşitli istatistiksel bilgileri elde etmek amacıyla hazırlanmıştır.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0123bb02-9a8f-4da9-b96a-9f760e9b39c2" alt="image">
+</p>
+
 
