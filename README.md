@@ -31,3 +31,6 @@ Bu projenin içeriği SqlConnection, SqlCommand, SqlDataAdapter ve DataTable gib
 
 ## 📁 Proje - 10 : DatabaseCRUD
 Bu projenin içeriği Kategori Ekleme İşlemi, Ürün Ekleme İşlemi, Ürün Listeleme, Ürün Silme İşlemi ve Ürün Güncelleme İşlemi konu başlıklarını ele alıyor.
+
+![image](https://github.com/user-attachments/assets/0123bb02-9a8f-4da9-b96a-9f760e9b39c2)
+
