@@ -1,0 +1,98 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi301\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{654550B2-6525-4772-8030-0D8DA76311A7}|CSharpEgitimKampi301.EFProject\\CSharpEgitimKampi301.EFProject.csproj|c:\\users\\\u00F6mer faruk g\u00FCndo\u011Fdu\\desktop\\c#\\csharpegitimkampi301\\csharpegitimkampi301.efproject\\frmstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{654550B2-6525-4772-8030-0D8DA76311A7}|CSharpEgitimKampi301.EFProject\\CSharpEgitimKampi301.EFProject.csproj|solutionrelative:csharpegitimkampi301.efproject\\frmstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{654550B2-6525-4772-8030-0D8DA76311A7}|CSharpEgitimKampi301.EFProject\\CSharpEgitimKampi301.EFProject.csproj|C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi301\\csharpegitimkampi301.efproject\\frmstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{654550B2-6525-4772-8030-0D8DA76311A7}|CSharpEgitimKampi301.EFProject\\CSharpEgitimKampi301.EFProject.csproj|solutionrelative:csharpegitimkampi301.efproject\\frmstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{654550B2-6525-4772-8030-0D8DA76311A7}|CSharpEgitimKampi301.EFProject\\CSharpEgitimKampi301.EFProject.csproj|C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi301\\csharpegitimkampi301.efproject\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{654550B2-6525-4772-8030-0D8DA76311A7}|CSharpEgitimKampi301.EFProject\\CSharpEgitimKampi301.EFProject.csproj|solutionrelative:csharpegitimkampi301.efproject\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{654550B2-6525-4772-8030-0D8DA76311A7}|CSharpEgitimKampi301.EFProject\\CSharpEgitimKampi301.EFProject.csproj|C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi301\\csharpegitimkampi301.efproject\\frmlocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{654550B2-6525-4772-8030-0D8DA76311A7}|CSharpEgitimKampi301.EFProject\\CSharpEgitimKampi301.EFProject.csproj|solutionrelative:csharpegitimkampi301.efproject\\frmlocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{654550B2-6525-4772-8030-0D8DA76311A7}|CSharpEgitimKampi301.EFProject\\CSharpEgitimKampi301.EFProject.csproj|C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi301\\csharpegitimkampi301.efproject\\frmlocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{654550B2-6525-4772-8030-0D8DA76311A7}|CSharpEgitimKampi301.EFProject\\CSharpEgitimKampi301.EFProject.csproj|solutionrelative:csharpegitimkampi301.efproject\\frmlocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmStatistics.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi301\\CSharpEgitimKampi301.EFProject\\FrmStatistics.cs",
+              "RelativeDocumentMoniker": "CSharpEgitimKampi301.EFProject\\FrmStatistics.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi301\\CSharpEgitimKampi301.EFProject\\FrmStatistics.cs",
+              "RelativeToolTip": "CSharpEgitimKampi301.EFProject\\FrmStatistics.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:48:15.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmStatistics.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi301\\CSharpEgitimKampi301.EFProject\\FrmStatistics.cs",
+              "RelativeDocumentMoniker": "CSharpEgitimKampi301.EFProject\\FrmStatistics.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi301\\CSharpEgitimKampi301.EFProject\\FrmStatistics.cs [Design]",
+              "RelativeToolTip": "CSharpEgitimKampi301.EFProject\\FrmStatistics.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:43:15.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi301\\CSharpEgitimKampi301.EFProject\\Model1.edmx",
+              "RelativeDocumentMoniker": "CSharpEgitimKampi301.EFProject\\Model1.edmx",
+              "ToolTip": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi301\\CSharpEgitimKampi301.EFProject\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "CSharpEgitimKampi301.EFProject\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-02-06T12:40:55.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmLocation.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi301\\CSharpEgitimKampi301.EFProject\\FrmLocation.cs",
+              "RelativeDocumentMoniker": "CSharpEgitimKampi301.EFProject\\FrmLocation.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi301\\CSharpEgitimKampi301.EFProject\\FrmLocation.cs",
+              "RelativeToolTip": "CSharpEgitimKampi301.EFProject\\FrmLocation.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wCcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T12:00:46.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmLocation.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi301\\CSharpEgitimKampi301.EFProject\\FrmLocation.cs",
+              "RelativeDocumentMoniker": "CSharpEgitimKampi301.EFProject\\FrmLocation.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi301\\CSharpEgitimKampi301.EFProject\\FrmLocation.cs [Design]",
+              "RelativeToolTip": "CSharpEgitimKampi301.EFProject\\FrmLocation.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:58:47.984Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
