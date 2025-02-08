@@ -5,14 +5,14 @@
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<CSharpEgitimKampi301.DataAccessLayer.Context.Context>
+    internal sealed class Configuration : DbMigrationsConfiguration<CSharpEgitimKampi301.DataAccessLayer.Context.DALContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
         }
 
-        protected override void Seed(CSharpEgitimKampi301.DataAccessLayer.Context.Context context)
+        protected override void Seed(CSharpEgitimKampi301.DataAccessLayer.Context.DALContext context)
         {
             //  This method will be called after migrating to the latest version.
 
