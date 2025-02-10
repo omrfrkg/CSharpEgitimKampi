@@ -1,0 +1,114 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi601\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A28F9898-D210-4078-B3C9-84F4699912F3}|CSharpEgitimKampi601\\CSharpEgitimKampi601.csproj|c:\\users\\\u00F6mer faruk g\u00FCndo\u011Fdu\\desktop\\c#\\csharpegitimkampi601\\csharpegitimkampi601\\frmemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A28F9898-D210-4078-B3C9-84F4699912F3}|CSharpEgitimKampi601\\CSharpEgitimKampi601.csproj|solutionrelative:csharpegitimkampi601\\frmemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A28F9898-D210-4078-B3C9-84F4699912F3}|CSharpEgitimKampi601\\CSharpEgitimKampi601.csproj|C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi601\\csharpegitimkampi601\\frmemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A28F9898-D210-4078-B3C9-84F4699912F3}|CSharpEgitimKampi601\\CSharpEgitimKampi601.csproj|solutionrelative:csharpegitimkampi601\\frmemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A28F9898-D210-4078-B3C9-84F4699912F3}|CSharpEgitimKampi601\\CSharpEgitimKampi601.csproj|C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi601\\csharpegitimkampi601\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A28F9898-D210-4078-B3C9-84F4699912F3}|CSharpEgitimKampi601\\CSharpEgitimKampi601.csproj|solutionrelative:csharpegitimkampi601\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A28F9898-D210-4078-B3C9-84F4699912F3}|CSharpEgitimKampi601\\CSharpEgitimKampi601.csproj|C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi601\\csharpegitimkampi601\\frmcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A28F9898-D210-4078-B3C9-84F4699912F3}|CSharpEgitimKampi601\\CSharpEgitimKampi601.csproj|solutionrelative:csharpegitimkampi601\\frmcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A28F9898-D210-4078-B3C9-84F4699912F3}|CSharpEgitimKampi601\\CSharpEgitimKampi601.csproj|C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi601\\csharpegitimkampi601\\frmcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A28F9898-D210-4078-B3C9-84F4699912F3}|CSharpEgitimKampi601\\CSharpEgitimKampi601.csproj|solutionrelative:csharpegitimkampi601\\frmcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A28F9898-D210-4078-B3C9-84F4699912F3}|CSharpEgitimKampi601\\CSharpEgitimKampi601.csproj|C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi601\\csharpegitimkampi601\\frmdepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A28F9898-D210-4078-B3C9-84F4699912F3}|CSharpEgitimKampi601\\CSharpEgitimKampi601.csproj|solutionrelative:csharpegitimkampi601\\frmdepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi601\\CSharpEgitimKampi601\\FrmEmployee.cs",
+              "RelativeDocumentMoniker": "CSharpEgitimKampi601\\FrmEmployee.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi601\\CSharpEgitimKampi601\\FrmEmployee.cs",
+              "RelativeToolTip": "CSharpEgitimKampi601\\FrmEmployee.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwEkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T13:11:08.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmEmployee.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi601\\CSharpEgitimKampi601\\FrmEmployee.cs",
+              "RelativeDocumentMoniker": "CSharpEgitimKampi601\\FrmEmployee.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi601\\CSharpEgitimKampi601\\FrmEmployee.cs [Design]",
+              "RelativeToolTip": "CSharpEgitimKampi601\\FrmEmployee.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T12:58:31.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmDepartment.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi601\\CSharpEgitimKampi601\\FrmDepartment.cs",
+              "RelativeDocumentMoniker": "CSharpEgitimKampi601\\FrmDepartment.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi601\\CSharpEgitimKampi601\\FrmDepartment.cs [Design]",
+              "RelativeToolTip": "CSharpEgitimKampi601\\FrmDepartment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T12:58:02.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi601\\CSharpEgitimKampi601\\Program.cs",
+              "RelativeDocumentMoniker": "CSharpEgitimKampi601\\Program.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi601\\CSharpEgitimKampi601\\Program.cs",
+              "RelativeToolTip": "CSharpEgitimKampi601\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T12:34:41.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmCustomer.cs",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi601\\CSharpEgitimKampi601\\FrmCustomer.cs",
+              "RelativeDocumentMoniker": "CSharpEgitimKampi601\\FrmCustomer.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi601\\CSharpEgitimKampi601\\FrmCustomer.cs",
+              "RelativeToolTip": "CSharpEgitimKampi601\\FrmCustomer.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T12:23:11.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmCustomer.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi601\\CSharpEgitimKampi601\\FrmCustomer.cs",
+              "RelativeDocumentMoniker": "CSharpEgitimKampi601\\FrmCustomer.cs",
+              "ToolTip": "C:\\Users\\\u00D6mer Faruk G\u00FCndo\u011Fdu\\Desktop\\C#\\CSharpEgitimKampi601\\CSharpEgitimKampi601\\FrmCustomer.cs [Design]",
+              "RelativeToolTip": "CSharpEgitimKampi601\\FrmCustomer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T12:22:08.802Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

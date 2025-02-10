@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FinancialCrmDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TblBankProcesses">
+    <Key>
+      <PropertyRef Name="BankProcessId" />
+    </Key>
+    <Property Name="BankProcessId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="ProcessDate" Type="date" />
+    <Property Name="ProcessType" Type="nvarchar" MaxLength="50" />
+    <Property Name="Amount" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="BankaId" Type="int" />
+  </EntityType>
+  <EntityType Name="TblBanks">
+    <Key>
+      <PropertyRef Name="BankaId" />
+    </Key>
+    <Property Name="BankaId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BankAccountNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="BankTitle" Type="nvarchar" MaxLength="50" />
+    <Property Name="BankBalance" Type="decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'FinancialCrmDb.dbo.TblBills' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="TblBills">
+          <Property Name="BillId" Type="int" />
+          <Property Name="BillTitle" Type="nvarchar" MaxLength="50" />
+          <Property Name="BillAmount" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="BillPeriod" Type="nvarchar" MaxLength="50" />
+        </EntityType>-->
+  <EntityType Name="TblCategories">
+    <Key>
+      <PropertyRef Name="CategoryId" />
+    </Key>
+    <Property Name="CategoryId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategoryName" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TblSpendings">
+    <Key>
+      <PropertyRef Name="SpendingId" />
+    </Key>
+    <Property Name="SpendingId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SpendingTitle" Type="nvarchar" MaxLength="50" />
+    <Property Name="SpendingAmount" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="SpendingDate" Type="date" />
+    <Property Name="CategoryId" Type="int" />
+  </EntityType>
+  <EntityType Name="TblUsers">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Username" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_TblBankProcesses_TblBanks">
+    <End Role="TblBanks" Type="Self.TblBanks" Multiplicity="0..1" />
+    <End Role="TblBankProcesses" Type="Self.TblBankProcesses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblBanks">
+        <PropertyRef Name="BankaId" />
+      </Principal>
+      <Dependent Role="TblBankProcesses">
+        <PropertyRef Name="BankaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblSpendings_TblCategories">
+    <End Role="TblCategories" Type="Self.TblCategories" Multiplicity="0..1" />
+    <End Role="TblSpendings" Type="Self.TblSpendings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblCategories">
+        <PropertyRef Name="CategoryId" />
+      </Principal>
+      <Dependent Role="TblSpendings">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="FinancialCrmDbModelStoreContainer">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblBankProcesses" EntityType="Self.TblBankProcesses" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblBanks" EntityType="Self.TblBanks" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblCategories" EntityType="Self.TblCategories" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblSpendings" EntityType="Self.TblSpendings" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblUsers" EntityType="Self.TblUsers" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_TblBankProcesses_TblBanks" Association="Self.FK_TblBankProcesses_TblBanks">
+      <End Role="TblBanks" EntitySet="TblBanks" />
+      <End Role="TblBankProcesses" EntitySet="TblBankProcesses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblSpendings_TblCategories" Association="Self.FK_TblSpendings_TblCategories">
+      <End Role="TblCategories" EntitySet="TblCategories" />
+      <End Role="TblSpendings" EntitySet="TblSpendings" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

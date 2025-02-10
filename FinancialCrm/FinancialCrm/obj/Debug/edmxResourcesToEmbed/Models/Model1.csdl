@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FinancialCrmDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TblBankProcesses">
+    <Key>
+      <PropertyRef Name="BankProcessId" />
+    </Key>
+    <Property Name="BankProcessId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ProcessDate" Type="DateTime" Precision="0" />
+    <Property Name="ProcessType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Amount" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="BankaId" Type="Int32" />
+    <NavigationProperty Name="TblBanks" Relationship="Self.FK_TblBankProcesses_TblBanks" FromRole="TblBankProcesses" ToRole="TblBanks" />
+  </EntityType>
+  <EntityType Name="TblBanks">
+    <Key>
+      <PropertyRef Name="BankaId" />
+    </Key>
+    <Property Name="BankaId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BankAccountNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BankTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BankBalance" Type="Decimal" Precision="18" Scale="2" />
+    <NavigationProperty Name="TblBankProcesses" Relationship="Self.FK_TblBankProcesses_TblBanks" FromRole="TblBanks" ToRole="TblBankProcesses" />
+  </EntityType>
+  <EntityType Name="TblCategories">
+    <Key>
+      <PropertyRef Name="CategoryId" />
+    </Key>
+    <Property Name="CategoryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TblSpendings" Relationship="Self.FK_TblSpendings_TblCategories" FromRole="TblCategories" ToRole="TblSpendings" />
+  </EntityType>
+  <EntityType Name="TblSpendings">
+    <Key>
+      <PropertyRef Name="SpendingId" />
+    </Key>
+    <Property Name="SpendingId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SpendingTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SpendingAmount" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="SpendingDate" Type="DateTime" Precision="0" />
+    <Property Name="CategoryId" Type="Int32" />
+    <NavigationProperty Name="TblCategories" Relationship="Self.FK_TblSpendings_TblCategories" FromRole="TblSpendings" ToRole="TblCategories" />
+  </EntityType>
+  <EntityType Name="TblUsers">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK_TblBankProcesses_TblBanks">
+    <End Role="TblBanks" Type="Self.TblBanks" Multiplicity="0..1" />
+    <End Role="TblBankProcesses" Type="Self.TblBankProcesses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblBanks">
+        <PropertyRef Name="BankaId" />
+      </Principal>
+      <Dependent Role="TblBankProcesses">
+        <PropertyRef Name="BankaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblSpendings_TblCategories">
+    <End Role="TblCategories" Type="Self.TblCategories" Multiplicity="0..1" />
+    <End Role="TblSpendings" Type="Self.TblSpendings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblCategories">
+        <PropertyRef Name="CategoryId" />
+      </Principal>
+      <Dependent Role="TblSpendings">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="FinancialCrmDbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="TblBankProcesses" EntityType="Self.TblBankProcesses" />
+    <EntitySet Name="TblBanks" EntityType="Self.TblBanks" />
+    <EntitySet Name="TblCategories" EntityType="Self.TblCategories" />
+    <EntitySet Name="TblSpendings" EntityType="Self.TblSpendings" />
+    <EntitySet Name="TblUsers" EntityType="Self.TblUsers" />
+    <AssociationSet Name="FK_TblBankProcesses_TblBanks" Association="Self.FK_TblBankProcesses_TblBanks">
+      <End Role="TblBanks" EntitySet="TblBanks" />
+      <End Role="TblBankProcesses" EntitySet="TblBankProcesses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblSpendings_TblCategories" Association="Self.FK_TblSpendings_TblCategories">
+      <End Role="TblCategories" EntitySet="TblCategories" />
+      <End Role="TblSpendings" EntitySet="TblSpendings" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

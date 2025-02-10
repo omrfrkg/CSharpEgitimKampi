@@ -1,0 +1,26 @@
+﻿-- CREATE TABLE CUSTOMER (
+-- 	CUSTOMERID SERIAL PRIMARY KEY,
+-- 	CUSTOMERNAME VARCHAR(100) NOT NULL,
+-- 	CUSTOMERSURNAME VARCHAR(100) NOT NULL,
+-- 	CUSTOMERCITY VARCHAR(50) NOT NULL
+-- )
+
+-- Insert Into customer (customername,customersurname,customercity) Values ('Ahmet','Yıldız','Trabzon')
+
+-- Select * From Customer
+
+-- CREATE TABLE Department (
+-- 	DepartmentId SERIAL PRIMARY KEY,
+-- 	DepartmentName VARCHAR(100) NOT NULL
+-- )
+
+-- CREATE TABLE Employee (
+-- 	EmployeeId SERIAL PRIMARY KEY,
+-- 	EmployeeName VARCHAR(100) NOT NULL,
+-- 	EmployeeSurname VARCHAR(100) NOT NULL,
+-- 	EmployeeSalary decimal NOT NULL,
+-- 	DepartmentId int,
+-- 	Foreign Key (DepartmentId) references Department(DepartmentId) on delete cascade
+-- )
+
+-- Insert Into Department (DepartmentName) Values ('Satın Alma') 
