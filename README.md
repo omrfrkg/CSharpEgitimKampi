@@ -93,3 +93,9 @@ Bu ekranda kullanıcı şifre bilgisini güncelleyebilir.
   <img src="https://github.com/user-attachments/assets/45482e0a-025d-44ea-886d-fc0c25059ad0" alt="image">
 </p>
 
+## 📌 Screen - 9 : Kayıt Ekranı
+Bu ekranda kullanıcı uygulamaya erişebilmek için kendine hesap açabilir.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b74d8cd9-fb36-4ba6-a569-8b22ef223a2b" alt="image">
+</p>
+
