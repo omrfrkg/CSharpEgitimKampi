@@ -14,3 +14,10 @@ C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\FinancialCrm\FinancialCrm\bin\Debug\E
 C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\FinancialCrm\FinancialCrm\bin\Debug\EntityFramework.xml
 C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\FinancialCrm\FinancialCrm\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\FinancialCrm\FinancialCrm\obj\Debug\Financia.1DE9CF8F.Up2Date
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\FinancialCrm\FinancialCrm\obj\Debug\FinancialCrm.FrmBilling.resources
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\FinancialCrm\FinancialCrm\obj\Debug\FinancialCrm.FrmCategory.resources
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\FinancialCrm\FinancialCrm\obj\Debug\FinancialCrm.FrmSpendings.resources
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\FinancialCrm\FinancialCrm\obj\Debug\FinancialCrm.FrmBankProcess.resources
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\FinancialCrm\FinancialCrm\obj\Debug\FinancialCrm.FrmLogin.resources
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\FinancialCrm\FinancialCrm\obj\Debug\FinancialCrm.FrmRegister.resources
+C:\Users\Ömer Faruk Gündoğdu\Desktop\C#\FinancialCrm\FinancialCrm\obj\Debug\FinancialCrm.FrmSettings.resources

@@ -98,5 +98,15 @@
       <End Role="TblCategories" EntitySet="TblCategories" />
       <End Role="TblSpendings" EntitySet="TblSpendings" />
     </AssociationSet>
+    <EntitySet Name="TblBills" EntityType="FinancialCrmDbModel.TblBills" />
   </EntityContainer>
+  <EntityType Name="TblBills">
+    <Key>
+      <PropertyRef Name="BillId" />
+    </Key>
+    <Property Name="BillId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BillTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BillAmount" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="BillPeriod" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
 </Schema>

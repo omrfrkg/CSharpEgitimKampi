@@ -30,14 +30,15 @@
     <Property Name="BankTitle" Type="nvarchar" MaxLength="50" />
     <Property Name="BankBalance" Type="decimal" Precision="18" Scale="2" />
   </EntityType>
-  <!--Errors Found During Generation:
-warning 6013: The table/view 'FinancialCrmDb.dbo.TblBills' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
-        <EntityType Name="TblBills">
-          <Property Name="BillId" Type="int" />
-          <Property Name="BillTitle" Type="nvarchar" MaxLength="50" />
-          <Property Name="BillAmount" Type="decimal" Precision="18" Scale="2" />
-          <Property Name="BillPeriod" Type="nvarchar" MaxLength="50" />
-        </EntityType>-->
+  <EntityType Name="TblBills">
+    <Key>
+      <PropertyRef Name="BillId" />
+    </Key>
+    <Property Name="BillId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BillTitle" Type="nvarchar" MaxLength="50" />
+    <Property Name="BillAmount" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="BillPeriod" Type="nvarchar" MaxLength="50" />
+  </EntityType>
   <EntityType Name="TblCategories">
     <Key>
       <PropertyRef Name="CategoryId" />
@@ -91,6 +92,7 @@ warning 6013: The table/view 'FinancialCrmDb.dbo.TblBills' does not have a prima
     <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TblBankProcesses" EntityType="Self.TblBankProcesses" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TblBanks" EntityType="Self.TblBanks" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblBills" EntityType="Self.TblBills" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TblCategories" EntityType="Self.TblCategories" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TblSpendings" EntityType="Self.TblSpendings" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TblUsers" EntityType="Self.TblUsers" Schema="dbo" store:Type="Tables" />

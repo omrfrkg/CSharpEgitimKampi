@@ -13,6 +13,7 @@
         <EntityTypeShape EntityType="FinancialCrmDbModel.TblUsers" Width="1.5" PointX="5.75" PointY="3.75" IsExpanded="true" />
         <AssociationConnector Association="FinancialCrmDbModel.FK_TblBankProcesses_TblBanks" ManuallyRouted="false" />
         <AssociationConnector Association="FinancialCrmDbModel.FK_TblSpendings_TblCategories" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="FinancialCrmDbModel.TblBills" Width="1.5" PointX="7.625" PointY="3.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

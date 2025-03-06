@@ -62,5 +62,15 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="TblBills">
+      <EntityTypeMapping TypeName="FinancialCrmDbModel.TblBills">
+        <MappingFragment StoreEntitySet="TblBills">
+          <ScalarProperty Name="BillPeriod" ColumnName="BillPeriod" />
+          <ScalarProperty Name="BillAmount" ColumnName="BillAmount" />
+          <ScalarProperty Name="BillTitle" ColumnName="BillTitle" />
+          <ScalarProperty Name="BillId" ColumnName="BillId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>
