@@ -44,6 +44,6 @@ Bu proje, DB First mantığını anlamak, CRUD işlemlerini uygulamalı olarak g
 
 # 🗂️ FinancialCrm
 <p align="center">
-  
+  ![login](https://github.com/user-attachments/assets/b3fd0821-2e2c-451e-9ee9-ed611a2f78d1)
 </p>
 
